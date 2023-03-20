@@ -863,16 +863,19 @@ header .container {
 }
 
 .check-thumb {
-    position: relative;
+    display: block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
 }
 
-.check-icon {
-    position: absolute;
-    display: inline-block;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+
+.check-thumb:checked + .check-icon {
+    background-color: var(--link-color);
 }
+
 
 .link-comment {
     font-size: 14px;
