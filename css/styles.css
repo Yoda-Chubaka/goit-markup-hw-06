@@ -862,6 +862,18 @@ header .container {
     font-size: 14px;
 }
 
+.check-thumb {
+    position: relative;
+}
+
+.check-icon {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
 .link-comment {
     font-size: 14px;
     line-height: 1.71;
@@ -891,7 +903,23 @@ header .container {
 
 .contact-form-submit-button:hover, 
 .contact-form-submit-button:focus {
-    
     background-color: var(--active-button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-form {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+
+}
+
+.footer-form-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
 }
