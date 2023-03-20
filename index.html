@@ -426,17 +426,33 @@
         </button>
 
         <form class="contact-form">
+            <p class="contact-form-title">Залиште свої дані, ми вам передзвонимо</p>
             <label class="contact-form-field">
                 Ім'я
-            <input name="user-name" class="contact-form-input" type="text">
+            <div class="contact-form-input-wrapper">
+                <input name="user-name" class="contact-form-input" type="text">
+                <svg class="contact-form-icon">
+                    <use href="./images/for-sprite/sprite.svg#icon-name"></use>
+                </svg>
+            </div>
             </label>
             <label class="contact-form-field">
                 Телефон
-                <input name="user-phone" class="contact-form-input" type="tel">
+                <div class="contact-form-input-wrapper">
+                    <input name="user-phone" class="contact-form-input" type="tel">
+                    <svg class="contact-form-icon">
+                        <use href="./images/for-sprite/sprite.svg#icon-phone"></use>
+                    </svg>
+                </div>
             </label>
             <label class="contact-form-field">
                 Пошта
-                <input name="user-mail" class="contact-form-input" type="email">
+                <div class="contact-form-input-wrapper">
+                    <input name="user-mail" class="contact-form-input" type="email">
+                    <svg class="contact-form-icon">
+                        <use href="./images/for-sprite/sprite.svg#icon-mail"></use>
+                    </svg>
+                </div>
             </label>
             <label class="contact-form-field">
                 Коментар
@@ -447,7 +463,7 @@
                 ></textarea>
             </label>
             <span class="contact-form-checkbox-wrapper">
-                <input name="accept-policy" type="checkbox" class="contact-form-checkbox">
+                <input name="accept-policy" type="checkbox" class="contact-form-checkbox" required>
                 <label for="" class="contact-form-checkbox-label">
                     Погоджуюся з розсилкою та приймаю <a href="Умови договору"></a>
                 </label>
