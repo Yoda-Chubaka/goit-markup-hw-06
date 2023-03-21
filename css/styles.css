@@ -871,12 +871,14 @@ header .container {
     width: 16px;
     height: 15px;
     margin-right: 8px;
-    border: 1px solid var(--primary-color);
+    border: 0.2px solid var(--primary-color);
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-checkbox:checked + .contact-form-checkbox-label > .check-thumb {
     background-color: var(--link-color);
+    border-color: var(--link-color);
 }
 
 .link-comment {
