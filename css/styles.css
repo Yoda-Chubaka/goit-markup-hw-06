@@ -875,7 +875,7 @@ header .container {
     cursor: pointer;
 }
 
-.contact-form-checkbox:checked + .check-thumb {
+.contact-form-checkbox:checked + .contact-form-checkbox-label > .check-thumb {
     background-color: var(--link-color);
 }
 
