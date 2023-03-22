@@ -603,6 +603,7 @@ header .container {
 .footer-container {
     display: flex;
     align-items: baseline;
+    justify-content: space-around;
 }
 
 .footer-right-part {
