@@ -885,9 +885,7 @@ header .container {
 }
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label > .check-thumb {
-    background-color: var(--link-color);
     border-color: var(--link-color);
-    border-radius: 2px;
 }
 
 .link-comment {
